@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A57259581D733EC20030CAC7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A57259571D733EC20030CAC7 /* main.cpp */; };
+		A57259611D733F1C0030CAC7 /* DataCollector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A57259601D733F1C0030CAC7 /* DataCollector.cpp */; };
+		A583AA831D737A95003453B0 /* myo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A583AA821D737A95003453B0 /* myo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A57259521D733EC20030CAC7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A57259541D733EC20030CAC7 /* MyoMacControl */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyoMacControl; sourceTree = BUILT_PRODUCTS_DIR; };
+		A57259571D733EC20030CAC7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A57259601D733F1C0030CAC7 /* DataCollector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DataCollector.cpp; sourceTree = "<group>"; };
+		A583AA7F1D737A95003453B0 /* bloquearTela.SCPT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bloquearTela.SCPT; sourceTree = "<group>"; };
+		A583AA801D737A95003453B0 /* desbloquearTela.SCPT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = desbloquearTela.SCPT; sourceTree = "<group>"; };
+		A583AA821D737A95003453B0 /* myo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = myo.framework; sourceTree = "<group>"; };
+		A5C806001D74F2C600675B05 /* volumaDescer.SCPT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = volumaDescer.SCPT; sourceTree = "<group>"; };
+		A5C806011D74F2C600675B05 /* volumeSubir.SCPT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = volumeSubir.SCPT; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A57259511D733EC20030CAC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A583AA831D737A95003453B0 /* myo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A572594B1D733EC20030CAC7 = {
+			isa = PBXGroup;
+			children = (
+				A57259561D733EC20030CAC7 /* MyoMacControl */,
+				A583AA7E1D737A95003453B0 /* AppleScripts */,
+				A583AA811D737A95003453B0 /* Frameworks */,
+				A57259551D733EC20030CAC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A57259551D733EC20030CAC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A57259541D733EC20030CAC7 /* MyoMacControl */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A57259561D733EC20030CAC7 /* MyoMacControl */ = {
+			isa = PBXGroup;
+			children = (
+				A57259601D733F1C0030CAC7 /* DataCollector.cpp */,
+				A57259571D733EC20030CAC7 /* main.cpp */,
+			);
+			path = MyoMacControl;
+			sourceTree = "<group>";
+		};
+		A583AA7E1D737A95003453B0 /* AppleScripts */ = {
+			isa = PBXGroup;
+			children = (
+				A5C806011D74F2C600675B05 /* volumeSubir.SCPT */,
+				A5C806001D74F2C600675B05 /* volumaDescer.SCPT */,
+				A583AA7F1D737A95003453B0 /* bloquearTela.SCPT */,
+				A583AA801D737A95003453B0 /* desbloquearTela.SCPT */,
+			);
+			path = AppleScripts;
+			sourceTree = "<group>";
+		};
+		A583AA811D737A95003453B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A583AA821D737A95003453B0 /* myo.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A57259531D733EC20030CAC7 /* MyoMacControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A572595B1D733EC20030CAC7 /* Build configuration list for PBXNativeTarget "MyoMacControl" */;
+			buildPhases = (
+				A57259501D733EC20030CAC7 /* Sources */,
+				A57259511D733EC20030CAC7 /* Frameworks */,
+				A57259521D733EC20030CAC7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyoMacControl;
+			productName = MyoMacControl;
+			productReference = A57259541D733EC20030CAC7 /* MyoMacControl */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A572594C1D733EC20030CAC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Grupo;
+				TargetAttributes = {
+					A57259531D733EC20030CAC7 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A572594F1D733EC20030CAC7 /* Build configuration list for PBXProject "MyoMacControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A572594B1D733EC20030CAC7;
+			productRefGroup = A57259551D733EC20030CAC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A57259531D733EC20030CAC7 /* MyoMacControl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A57259501D733EC20030CAC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A57259581D733EC20030CAC7 /* main.cpp in Sources */,
+				A57259611D733F1C0030CAC7 /* DataCollector.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A57259591D733EC20030CAC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A572595A1D733EC20030CAC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A572595C1D733EC20030CAC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A572595D1D733EC20030CAC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A572594F1D733EC20030CAC7 /* Build configuration list for PBXProject "MyoMacControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A57259591D733EC20030CAC7 /* Debug */,
+				A572595A1D733EC20030CAC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A572595B1D733EC20030CAC7 /* Build configuration list for PBXNativeTarget "MyoMacControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A572595C1D733EC20030CAC7 /* Debug */,
+				A572595D1D733EC20030CAC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A572594C1D733EC20030CAC7 /* Project object */;
+}
