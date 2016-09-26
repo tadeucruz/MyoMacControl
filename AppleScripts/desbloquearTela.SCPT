@@ -3,6 +3,7 @@ tell application "System Events"
         tell application "ScreenSaverEngine" to quit
         delay 0.5
         keystroke "<SENHA>"
+        delay 0.5
         keystroke return
     end if
 end tell
