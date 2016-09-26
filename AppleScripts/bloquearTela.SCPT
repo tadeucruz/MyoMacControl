@@ -5,6 +5,7 @@ tell application "System Events"
 end tell
 tell application "System Events"
     if ((get name of every process) does not contain "ScreenSaverEngine") then
-        start current screen saver
+        set ss to screen saver "Flurry"
+        start ss
     end if
 end tell
