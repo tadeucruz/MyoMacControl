@@ -8,4 +8,6 @@ O trabalho foi feito utilizando o [Myo Gesture Control Armband](https://www.myo.
 
 ![Possíveis Postura](http://i.imgur.com/vdkTqh7.png)
 
-Foi escrito um aplicativo utilizando o SDK do Myo Gesture Control Armband e realizar as ações necessárias. 
+Foi escrito um aplicativo utilizando o SDK do Myo Gesture Control Armband e realizar as ações necessárias. Abaixo um video de demonstração do software funcionando. 
+
+![IMAGE ALT TEXT](https://www.youtube.com/watch?v=bhjgo93zvuU/0.jpg)](https://www.youtube.com/watch?v=bhjgo93zvuU)
